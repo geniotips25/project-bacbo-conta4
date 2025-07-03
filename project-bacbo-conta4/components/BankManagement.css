@@ -1,0 +1,21 @@
+        @keyframes slideInRight {
+          from {
+            opacity: 0;
+            transform: translateX(100%);
+          }
+          to {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+        
+        @keyframes pulse {
+          0%, 100% { 
+            transform: scale(1);
+            box-shadow: 0 0 30px ${color}50;
+          }
+          50% { 
+            transform: scale(1.02);
+            box-shadow: 0 0 40px ${color}80;
+          }
+        }
